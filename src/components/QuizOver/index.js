@@ -60,7 +60,7 @@ const QuizOver = React.forwardRef((props, ref) => {
             .then(response => {
                 
             //     console.log(API_PUBLIC_KEY)
-            // console.log(response)
+             console.log(response)
             setCharacterInfos(response.data)
             setLoading(false)
             localStorage.setItem(id, JSON.stringify(response.data))
